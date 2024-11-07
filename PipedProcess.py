@@ -4,8 +4,6 @@ from multiprocessing import Process, Queue
 from time import time_ns
 from typing import TypeVar, Generic, Optional, final
 
-from tensorflow.python.ops.summary_ops_v2 import flush
-
 T = TypeVar("T")
 I = TypeVar("I")
 O = TypeVar("O")
